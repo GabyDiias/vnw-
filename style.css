@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 5vw;
+    align-items: center;
+}
+
+.menu-navegation{
+    display: flex;
+    list-style: none;
+    width: 350px;
+    justify-content: space-evenly;
+
+}
+.menu-navegation li{
+    color: gray;
+}
+.menu-navegation li:hover{
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media (max-width: 470px) {
+    .menu-navegation{
+        display: none;
+    }
+    
+}
+
+.box-img-header{
+    background-image: url(assets/laranja\ azul\ recorte.png);
+    background-size: cover;
+    height: 80vh;
+  
+}
+.text-img-header{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 45vh;
+    color: #fff;
+    padding-left: 4rem;
+}
+
+.text-img-header h1{
+    font-size: 4vw;
+   
+}
+
+.text-img-header p{
+    font-size: 2vw;
+}
+
+.img-main{
+    margin: 1rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-img-main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 4rem auto;
+}
+
+.box-footer{
+    display: flex;
+    height: 16vh;
+    align-items: center;
+}
+
+.box-img-footer{
+    width: 340px;
+    margin-left: 5rem;
+}
+
+.text-footer{
+    display: flex;
+}
+
+.img-footer{
+    margin: 5px;
+}
+
+.paragrafo-ref{
+    width: 51%;
+    font-size: 12px;
+    margin-left: 2rem;
+}
+
